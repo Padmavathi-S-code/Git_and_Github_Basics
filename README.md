@@ -20,7 +20,9 @@ A personal learning journal documenting Git and Github fundamentals, commands, w
 
 ## 1. Introduction
 ### 1.1 What is Git? 
-Git is a free, open-source(its source code is publicly available, and it can be used and modified under its license), distributed version control(meaning every user can have complete copy of the repository and history locally) used to track changes in files and coordinate work among multiple people.
+Git is a free, open-source, distributed version control used to track changes in files and coordinate work among multiple people.
+- Open-source: Its source code is publicly available, and it can be used and modified under its licence.
+- Distributed: Each user can have a complete copy of the repository and its history locally.
 ### 1.2 Who developed Git?
 Git was created by Linus Torvalds also the creator of Linux kernel.
 ### 1.3 Important Git Concepts
