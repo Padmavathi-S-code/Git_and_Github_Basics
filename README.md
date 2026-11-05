@@ -18,25 +18,26 @@ A personal learning journal documenting Git and Github fundamentals, commands, w
 | 12 | [Useful Git Commands](#12-useful-git-commands) | Command Reference |
 | 13 | [Learning Resources](#13-learning-resources) | Official Documentation, Tutorials, Books |
 
-##Introduction
-1. What is Git? 
+## 1. Introduction
+### 1.1 What is Git? 
 Git is a free, open-source(its source code is publicly available, and it can be used and modified under its license), distributed version control(meaning every user can have complete copy of the repository and history locally) used to track changes in files and coordinate work among multiple people.
-2. Who developed Git?
+### 1.2 Who developed Git?
 Git was created by Linus Torvalds also the creator of Linux kernel.
-3. Important Git Concepts
+### 1.3 Important Git Concepts
 - Repository : Your project managed by git.
 - Commit: A recorded snapshot of changes you made to your project.
 - Branch: An independent line of development (eg: main branch, master branch)
 - Merge: Combining changes from different branches.
-4. Git vs GitHub
+### 1.4 Git vs GitHub
 | Git | GitHub |
+|---|---|
 | Version control system | Cloud-based development platform |
 | Installed on your computer | Accessed through the web or others |
 | Tracks changes in files | Host Git repositories |
 | Works locally without internet | Requires internet for online collaboration |
 | Manages commits and branches | Provides Pull Requests, Issues and collaboration features |
 |Developed by Linus Torvalds | Owned by Microsoft |
-5. Why use Version Control
+### 1.5 Why use Version Control?
 Version control helps developers and researchers:
 - Track changes made to files.
 - Maintain project history.
