@@ -57,4 +57,51 @@ Versions Control is a system that records changes made in files over time, allow
 - Recovery: Helps recover previous versions.
 - Collaboration: Allows multiple people to work on the same project.
 - Experimentation and open source contribution to projects: Allows developers and researchers to experiment with open-source projects without directly affecting the main development branch.
+### 2.2 Types of Version Control Systems:
+There are three types of VCS:
+| Feature | Local VCS | Centralized VCS | Distributed VCS |
+|---|---|---|---|
+| Location of Storage | Local Computer | Central server | Each user's computer |
+| Collaboration | Limited | Supported |Supported |
+| Offline commits | Yes | Generally no | Yes |
+| Example | RCS | Apache Subversion | Git and Mercurial |
+### 2.3 How Git Works
+Git tracks changes in your project repo and records them as commits. Rather than simply saving a list of file differences, git generally stores project snapshots and uses optimizations to manage them efficiently.
+- ** Step 1: Working Directory (folder) **
+These is where the user can create, edit, or delete files and the changes initially exist in the working directory in your local computer.
 
+- ** Step 2: Staging Area **
+Before committing, you select which changes you want Git to include in the next commit.
+we can add specific changes like this
+'''bash 
+git add code.py
+'''
+or we can add any or all changes without specifications like 
+'''bash
+git add .
+'''
+
+- ** Step 3: Local Repository **
+After staging, you record the changes using a commit and commit helps you specific exactly what change you made in this commit
+'''bash
+git commit -m "Added RNA-seq quality control"
+'''
+'''bash
+git commit -m "docs: update notes" (mainly to specific documentation related changes)
+'''
+
+- ** Step 4: Remote Repository **
+If you want to share your work or project on GitHub, you push your commit to the remote repository.
+'''bash
+git push origin main
+'''
+
+### Important Git Commands
+| Commands | Purpose |
+|---|---|
+| git status | Check the current state of files |
+| git add | Stage changes |
+| git commit | Record staged changes |
+| git log | View commit history |
+| git push | Send commits to a remote repository |
+| git pull | Fetch and integrate remote changes |
