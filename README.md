@@ -67,10 +67,11 @@ There are three types of VCS:
 | Example | RCS | Apache Subversion | Git and Mercurial |
 ### 2.3 How Git Works
 Git tracks changes in your project repo and records them as commits. Rather than simply saving a list of file differences, git generally stores project snapshots and uses optimizations to manage them efficiently.
-- **Step 1: Working Directory (folder)**
+
+**Step 1: Working Directory (folder)**
 These is where the user can create, edit, or delete files and the changes initially exist in the working directory in your local computer.
 
-- **Step 2: Staging Area**
+**Step 2: Staging Area**
 Before committing, you select which changes you want Git to include in the next commit.
 we can add specific changes like this
 ```bash 
@@ -81,7 +82,7 @@ or we can add any or all changes without specifications like
 git add .
 ```
 
-- **Step 3: Local Repository**
+**Step 3: Local Repository**
 After staging, you record the changes using a commit and commit helps you specific exactly what change you made in this commit
 
 ```bash
@@ -117,7 +118,7 @@ Changes involving improving code structure without affecting the functionality
 git commit -m "refactor: similify data processing"
 ```
 
-- **Step 4: Remote Repository**
+**Step 4: Remote Repository**
 If you want to share your work or project on GitHub, you push your commit to the remote repository.
 ```bash
 git push origin main
