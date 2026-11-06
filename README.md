@@ -21,7 +21,7 @@ A personal learning journal documenting Git and Github fundamentals, commands, w
 ## 1. Introduction
 ### 1.1 What is Git? 
 Git is a free, open-source, distributed version control used to track changes in files and coordinate work among multiple people.
-- Open-source: Its source code is publicly available, and it can be used and modified under its licence.
+- Open-source: Its source code is publicsly available, and it can be used and modified under its licence.
 - Distributed: Each user can have a complete copy of the repository and its history locally.
 ### 1.2 Who developed Git?
 Git was created by Linus Torvalds also the creator of Linux kernel.
@@ -47,4 +47,14 @@ Version control helps developers and researchers:
 - Experiment without affecting the main project when trying to do open-source contributions.
 - Collaborate with other developers and researchers around the world.
 - Maintain reproducibility and transparency in research projects.
+
+## 2. Git Fundamentals
+### 2.1 What is version Control?
+Versions Control is a system that records changes made in files over time, allowing users to track, compare, and restore previous versions.
+- Why Version Control is important?
+- Tracking: Keeps track of changes made to files.
+- History: Maintains a record of project development.
+- Recovery: Helps recover previous versions.
+- Collaboration: Allows multiple people to work on the same project.
+- Experimentation and open source contribution to projects: Allows developers and researchers to experiment with open-source projects without directly affecting the main development branch.
 
