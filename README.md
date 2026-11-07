@@ -133,3 +133,6 @@ git push origin main
 | git log | View commit history |
 | git push | Send commits to a remote repository |
 | git pull | Fetch and integrate remote changes |
+
+### Git Architecture:
+
