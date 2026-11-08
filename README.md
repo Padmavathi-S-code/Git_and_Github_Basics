@@ -135,4 +135,17 @@ git push origin main
 | git pull | Fetch and integrate remote changes |
 
 ### Git Architecture:
+ ```mermaid
+flowchart TD
+    A["Working Directory<br/>(Edit / Create)"]
+    B["Staging Area<br/>(Select Changes)"]
+    C["Local Repository<br/>(Commit History)"]
+    D["Remote Repository<br/>(GitHub)"]
+
+    A -->|git add| B
+    B -->|git commit| C
+    C -->|git push| D
+ ```
+
+## Git Configuration
 
