@@ -154,5 +154,14 @@ git --version
 ```
 - This commands helps to know about git version that we are using which can be very useful during trouble shooting compatibility issues.
 
-###
+### Configuring Git Username
+Git records the author of each commit. you configure the name Git should associate with your commits.
+```
+git config --global user.name "Your Name"
+```
+### Configuring Git Email
+Git also records an email address as part of commit author information.
+```
+git config --global user.email "your-email@example.com"
+```
 
