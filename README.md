@@ -147,5 +147,12 @@ flowchart TD
     C -->|git push| D
  ```
 
-## Git Configuration
+## 3. Git Configuration
+### Checking git version
+```bash
+git --version
+```
+- This commands helps to know about git version that we are using which can be very useful during trouble shooting compatibility issues.
+
+###
 
